@@ -1,0 +1,132 @@
+*{margin: 0;padding: 0;outline: 0;}
+body 
+{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #130f26;
+}
+.regform
+{
+	width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /*background-image: url('../image/abc.jpg');*/
+
+}
+.vedio-container
+{
+	position: absolute;
+    width: 1350px;
+}
+.vedio-container video
+{
+	    margin: 0 auto;
+	    width: 100%;
+	    height: 800px;
+}
+form 
+{
+	z-index: 2;
+	width: 500px;
+	height: 330px;
+	background: #1b6ecc1c;
+	padding: 20px;
+	margin: 0 auto;
+	padding-top: 72px;
+}
+input[type=text],input[type=password]
+{
+	width: 341px;
+    height: 42px;
+    align-items: center;
+    margin: 5px 44px 0px 76px;
+    position: relative;
+    font-size: 17px;
+    text-align: center;
+    background: #2b497b85;
+    padding: 2px;
+    border: none;
+    border-radius: 36px;
+    color: #fff;
+}
+/*for default placeholder text color inside the inpute field*/
+::-webkit-input-placeholder 		/*for Chorom */
+{ 
+  color:#fff;
+}
+::-ms-input-placeholder{color:#fff;}	/* for Explorar */
+
+::-moz-placeholder{color:#fff;}				/*for Mozilla */
+
+.l_btn 
+{
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	width: 59%;
+}
+.l_btn span
+{
+    float: right;
+}
+.log_btn:hover 
+{
+	background-color: #5089E387;
+	width: 140px;
+}
+
+.l_btn a
+{
+	text-align: center;
+	text-decoration: none;
+	color: #756d1f;
+	font-size: 18px;
+}
+
+button 
+{
+	margin: 0 auto;
+	width: 128px;
+	height: 37px;
+	background: #34476A;
+	border: none;
+	border-radius: 32px;
+	color: #8994ae;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+button:hover a
+{
+	color:#056b27;
+}
+.display_msg 
+{
+	width: 40%;
+	position: absolute;
+	color: #806d09;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #141939;
+	top: 0;
+	left: 30%;
+	margin-top: 33px;
+}
+.abc 
+{
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: .1rem;
+	margin: 17px 48px;
+}
+.abc a 
+{
+    color: #2c8c00;
+    padding: 23px;
+    font-size: 20px;
+}

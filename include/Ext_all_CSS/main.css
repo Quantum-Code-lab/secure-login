@@ -1,0 +1,102 @@
+*{margin: 0;padding: 0;outline: 0;}
+body
+{
+    width: 1349px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.container
+{
+width: 1349px;
+height: 700px;
+background-image: url(../image/abc01.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.navbar
+{
+    width: 1300px;
+    margin-top: 8px;
+}
+.brand
+{
+	width: 72px;
+    height: 40px /*background-color: #00000091;*/
+    background: #443a3a61;
+    height: 56px;
+    margin: 1px 0px 2px;
+    text-align: center;
+    position: relative;
+    float: left;
+    padding: 5px;
+    border: 2px solid #1f7d7c;
+
+
+}
+.brand a
+{
+	color: #b8c1c1;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+.brand :hover{transform: rotateX(180deg); color: #080808}
+ 
+.navbar ul
+{
+	list-style: none;
+}
+.navbar ul li
+{
+	width: 100px;
+    background-color: #ebf2f80f;
+    float: right;
+    margin-left: 8px;
+    height: 40px;
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+    border: 2px solid #cfeae94d;
+    border-radius: 30px;
+
+}
+.navbar ul li a
+{
+width: 100px;
+
+text-decoration: none;
+
+display: block;
+
+font-size: 17px;
+
+padding: 5px;
+
+text-decoration: none;
+
+color: #569a99d4;
+}
+.navbar ul li  :hover {color: #fff;}
+.regform
+{ 
+	width: 650px;
+    height: 550px;
+    background-image: url(image/abc01.jpg);
+    margin: 0 auto;
+}
+.regform form
+{
+	width: 450px
+	margin: 0 auto;
+	height: 200px;
+	position: relative;
+}
+/*For login page css*/
+span
+{
+    text-align: center;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+}
